@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <!--This is Marciniak's index page-->
+    <title>Michael Marciniak's Hobby Page</title>
+</head>
+<body>
+	<header>
+		<h1>Welcome to Michael Marciniak's Page!</h1>
+	</header>
+	<section> <p>Hello, My name is Michael Marciniak, and one of my favorite hobbies is playing golf.
+	It's a great way to relax, enjoy the outdoors, and challenge myself.</p> 
+	</section> 
+	<section>
+		<h2>About My Hobby: Golf</h2>
+	<section>
+		<p> Golf has been my main hobby for the past two years. Rain or shine I will be practicing,
+		at the golf course or simulator.</p>
+		<img src="PaynesValley.jpg" alt="golf course">
+	</section>
+	<footer>
+		<p>Thank you for visiting my page! Feel free to reach out if you share a love for golf.</p>
+	</footer>
+</body>
+</html>
