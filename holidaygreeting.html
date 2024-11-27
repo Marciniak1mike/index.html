@@ -48,7 +48,106 @@
 			height: 2px; 
 			background-color: orange; 
 			margin: 20px 0; 
+			}
+		body {
+			background-color:#f7f4e9;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin:0;
+			}
+		 .turkey { 
+			position: relative; 
+			width: 150px; 
+			height: 150px; 
+			background: #6b4226; 
+			border-radius: 50%; 
 			} 	
+		.feather { 
+			position: absolute; 
+			width: 70px; 
+			height: 120px; 
+			background: #ffcc00; 
+			border-radius: 50%; 
+			}
+		.feather:nth-child(1) { 
+			top: -40px; 
+			left: 30px; 
+			background: #ff6f61; 
+			}	
+		 .feather:nth-child(2) { 
+			top: -40px; 
+			left: 50px; 
+			background: #ffcc00; 
+			} 
+		.feather:nth-child(3) { 
+			top: -40px; 
+			left: 70px; 
+			background: #66cc66; 
+			} 	
+		.feather:nth-child(4) { 
+			top: -40px; 
+			left: 90px; 
+			background: #ff6f61; 
+			}	
+		 .feather:nth-child(5) { 
+			top: -40px; 
+			left: 110px; 
+			background: #ffcc00; 
+			}	
+		.face { 
+			position: absolute; 
+			top: 50px; 
+			left: 45px; 
+			width: 60px; 
+			height: 60px; 
+			background: #f4a460; 
+			border-radius: 50%; 
+			} 
+		.eye { 
+			position: absolute; 
+			width: 10px; 
+			height: 10px; 
+			background: white; 
+			border-radius: 50%; 
+			}	
+		 .eye::before { 
+			content: ''; 
+			position: absolute; 
+			top: 3px; 
+			left: 3px; 
+			width: 4px; 
+			height: 4px; 
+			background: black; 
+			border-radius: 50%; 
+			} 	
+		.eye:nth-child(1) { 
+			top: 20px; 
+			left: 15px; 
+			} 	
+		.eye:nth-child(2) { 
+			top: 20px; 
+			left: 35px; 
+			}
+		.beak { 
+			position: absolute; 
+			top: 40px; 
+			left: 20px; 
+			width: 20px; 
+			height: 20px; 
+			background: #ffcc00; 
+			clip-path: polygon(50% 0%, 100% 100%, 0% 100%); 
+			}	
+		 .wattle { 
+			position: absolute; 
+			top: 40px; 
+			left: 35px; 
+			width: 10px; 
+			height: 20px; 
+			background: #ff6f61; 
+			border-radius: 50%; 
+			}	
 	</style>
 </head>
 <body>
@@ -69,11 +168,21 @@
 		</p> 
 	</div>
 	
-	<img src="https://marciniak1mike.github.io/index.html/Happythanksgiving.jpg" alt="Happythanksgiving image" style="margin: 20px;" width="2000" height="800">
-	
 	<footer> 
 		Michael Marciniak | Holiday Greetings 
 	</footer> 
+	<div class="turkey"> 
+		<div class="feather"></div> 
+		<div class="feather"></div> 
+		<div class="feather"></div> 
+		<div class="feather"></div> 
+		<div class="feather"></div> 
+		<div class="face"> 
+		<div class="eye"></div> 
+		<div class="eye"></div> 
+		<div class="beak"></div> 
+		<div class="wattle"></div> 
+	</div>
 	
 </body> 
 </html>
